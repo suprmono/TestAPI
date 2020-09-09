@@ -1,0 +1,27 @@
+[2020-09-08 09:56:53] INFO [<module>: run_all.py, 6] ====================== 测试开始 =======================
+[2020-09-08 09:56:54] DEBUG [_new_conn: connectionpool.py, 225] Starting new HTTP connection (1): 127.0.0.1:8888
+[2020-09-08 09:56:57] INFO [send_mail: send_email.py, 30] 邮件发送完成！
+[2020-09-08 09:56:57] INFO [<module>: run_all.py, 13] ======================= 测试结束 =======================
+[2020-09-08 16:03:40] INFO [<module>: run_all.py, 6] ====================== 测试开始 =======================
+[2020-09-08 16:03:40] DEBUG [_new_conn: connectionpool.py, 225] Starting new HTTP connection (1): 127.0.0.1:8888
+[2020-09-08 16:03:40] DEBUG [_make_request: connectionpool.py, 437] http://127.0.0.1:8888 "POST /login HTTP/1.1" 200 21
+[2020-09-08 16:03:40] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-09-08 16:03:40] INFO [log_case_info: case_log.py, 9] url：http://127.0.0.1:8888/login
+[2020-09-08 16:03:40] INFO [log_case_info: case_log.py, 10] 请求参数：{"username": "张三", "password": "123456"}
+[2020-09-08 16:03:40] INFO [log_case_info: case_log.py, 11] 期望结果：<h1>登录成功</h1>
+[2020-09-08 16:03:40] INFO [log_case_info: case_log.py, 12] 实际结果：<h1>登录成功</h1>
+[2020-09-08 16:03:42] INFO [send_mail: send_email.py, 25] 邮件发送完成！
+[2020-09-08 16:03:42] INFO [<module>: run_all.py, 13] ======================= 测试结束 =======================
+[2020-09-08 16:04:14] INFO [<module>: run_all.py, 6] ====================== 测试开始 =======================
+[2020-09-08 16:05:06] INFO [<module>: run_all.py, 6] ====================== 测试开始 =======================
+[2020-09-08 16:07:40] INFO [<module>: run_all.py, 6] ====================== 测试开始 =======================
+[2020-09-08 16:27:15] INFO [<module>: run_all.py, 6] ====================== 测试开始 =======================
+[2020-09-08 16:27:15] DEBUG [_new_conn: connectionpool.py, 225] Starting new HTTP connection (1): 127.0.0.1:8888
+[2020-09-08 16:27:15] DEBUG [_make_request: connectionpool.py, 437] http://127.0.0.1:8888 "POST /login HTTP/1.1" 200 21
+[2020-09-08 16:27:15] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-09-08 16:27:15] INFO [log_case_info: case_log.py, 9] url：http://127.0.0.1:8888/login
+[2020-09-08 16:27:15] INFO [log_case_info: case_log.py, 10] 请求参数：{"username": "张三", "password": "123456"}
+[2020-09-08 16:27:15] INFO [log_case_info: case_log.py, 11] 期望结果：<h1>登录成功</h1>
+[2020-09-08 16:27:15] INFO [log_case_info: case_log.py, 12] 实际结果：<h1>登录成功</h1>
+[2020-09-08 16:27:28] INFO [send_mail: send_email.py, 25] 邮件发送完成！
+[2020-09-08 16:27:28] INFO [<module>: run_all.py, 13] ======================= 测试结束 =======================
