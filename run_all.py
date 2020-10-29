@@ -9,5 +9,5 @@ suite = unittest.defaultTestLoader.discover(test_path)
 with open(report_file, 'wb') as f:
     HTMLTestRunner(stream=f, title="Api Test", description="测试描述", tester="zjk").run(suite)
 
-# send_mail(report_file)
+send_mail(report_file)
 logging.info("======================= 测试结束 =======================")

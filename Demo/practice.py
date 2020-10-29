@@ -19,6 +19,7 @@ def check_ipv4(str):
 print(check_ipv4('101.1.0.201'))
 """
 
+
 # import xlrd
 #
 # wb = xlrd.open_workbook('test_user_data.xlsx')
@@ -40,4 +41,25 @@ print(check_ipv4('101.1.0.201'))
 # for i in range(sh.nrows):
 #     print(sh.row_values(i))
 
+#
+# def findMinAndMax(L):
+#     if not L:
+#         return (None, None)
+#     else:
+#         val_min = L[0]
+#         val_max = L[0]
+#         for i in L:
+#             if val_min > i:
+#                 val_min = i
+#             if val_max < i:
+#                 val_max = i
+#         return (val_min, val_max)
+#
+#
+# print(findMinAndMax([]))
 
+
+L1 = ['Hello', 'World', 18, 'Apple', None]
+L2 = [s.lower() for s in L1 if isinstance(s, str)]
+
+print(L2)

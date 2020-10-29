@@ -1,6 +1,7 @@
 import logging
 import os
 
+# 路径配置
 prj_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 data_path = os.path.join(prj_path, 'data')
@@ -12,10 +13,10 @@ report_file = os.path.join(prj_path, 'report', 'report.html')
 # log 配置
 logging.basicConfig(
     level=logging.DEBUG,
-    format='[%(asctime)s] %(levelname)s [%(funcName)s: %(filename)s, %(lineno)d] %(message)s', # log格式
-    datefmt='%Y-%m-%d %H:%M:%S', # 日期格式
-    filename=log_file, # 日志输出文件
-    filemode='a' # 追加模式
+    format='[%(asctime)s] %(levelname)s [%(funcName)s: %(filename)s, %(lineno)d] %(message)s',  # log格式
+    datefmt='%Y-%m-%d %H:%M:%S',  # 日期格式
+    filename=log_file,  # 日志输出文件
+    filemode='a'  # 追加模式
 )
 
 # 数据库配置
